@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MYHOUSE - Find your dream house</title>
+  <title>ASTRAIOS REAL ESTATE- Find your dream house</title>
 
   <!-- 
     - favicon
@@ -25,81 +25,98 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
-</head>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astraios Real Estate Agency</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/collection/components/icon/icon.min.css">
+  <style>
+    /* Your existing CSS styles */
 
-<body>
+    /* Add this CSS for positioning the logo in the rightmost corner */
+    .header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-  <!-- 
-    - #HEADER
-  -->
+    .header .logo {
+      margin-left: auto;
+    }
+  </style>
 
+  <!-- Header section -->
   <header class="header" data-header>
-
     <div class="overlay" data-overlay></div>
 
     <div class="header-top">
       <div class="container">
-
         <ul class="header-top-list">
-
           <li>
-            <a href="MYHOUSE" class="header-top-link">
+            <a href="ASTRAIOS REAL ESTATE" class="header-top-link">
               <ion-icon name="mail-outline"></ion-icon>
-
-              <span>info@MYHOUSE.com</span>
+              <span>sales@astraios.tech</span>
             </a>
           </li>
-
           <li>
             <a href="#" class="header-top-link">
               <ion-icon name="location-outline"></ion-icon>
-
-              <address>232/20 M.G.Road,Kolkata </address>
+              <address>Mother Teresa Sarani,Park Street,Kolkata</address>
             </a>
           </li>
-
         </ul>
-
         <div class="wrapper">
           <ul class="header-top-social-list">
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-            </li>
-
+           
           </ul>
-
-          <button class="header-top-btn">Add Listing</button>
+          <button class="header-top-btn"><img src="./assets/images/logo.png" alt="ASTRAIOS logo">
         </div>
-
       </div>
     </div>
 
     <div class="header-bottom">
       <div class="container">
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="ASTRAIOS logo">
+            </a>
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+              <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+              <li><a href="#about" class="navbar-link" data-nav-link>Property</a></li>
+              <li><a href="#service" class="navbar-link" data-nav-link>Service</a></li>
+              <li><a href="#property" class="navbar-link" data-nav-link>News & Blog</a></li>
+              <li><a href="#blog" class="navbar-link" data-nav-link>Contact</a></li>
+              <li><a href="#contact" class="navbar-link" data-nav-link>About</a></li>
+            </ul>
+          </div>
+        </nav>
+        
+          </button>
+        </div>
+      </div>
+    
+  </header>
+
+  <!-- Main content sections (hero, form, etc.) -->
+  <main>
+    <article>
+      <!-- Hero section -->
+      <section class="hero" id="home">
+        <!-- Hero content as previously provided -->
+      </section>
+      <div class="header-bottom">
+      <div class="container">
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.png" alt="MYHOUSE logo">
+          <img src="./assets/images/logo.png" alt="ASTRAIOS logo">
         </a>
 
         <nav class="navbar" data-navbar>
@@ -107,7 +124,7 @@
           <div class="navbar-top">
 
             <a href="#" class="logo">
-              <img src="./assets/images/logo.png" alt="MYHOUSE logo">
+              <img src="./assets/images/logo.png" alt="ASTRAIOS logo">
             </a>
 
             <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
@@ -188,215 +205,480 @@
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/collection/components/icon/icon.min.css">
+  <style>
+    :root {
+      --cultured-2: #f9f9f9;
+      --orange-soda: #fa5b3d;
+      --dark-jungle-green: #1d2d50;
+      --cadet: #53627c;
+      --fs-5: 1.125rem;
+      --fw-700: 700;
+      --section-padding: 60px;
+    }
 
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .hero {
+      background: var(--cultured-2);
+      padding-block: var(--section-padding);
+      position: relative;
+      overflow: hidden;
+      text-align: center; /* Center align content */
+    }
+
+    .hero-container {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align items horizontally */
+      overflow-x: auto;
+      scroll-behavior: smooth;
+    }
+
+    .hero-content {
+      margin-bottom: 60px;
+      min-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .hero-banner {
+      min-width: 100%;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    .hero-banner img {
+      width: 100%;
+    }
+
+    .hero-subtitle {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 20px;
+    }
+
+    .hero-subtitle ion-icon {
+      color: var(--orange-soda);
+    }
+
+    .hero-subtitle span {
+      color: var(--dark-jungle-green);
+      font-size: var(--fs-5);
+      font-weight: var(--fw-700);
+    }
+
+    .h1 {
+      margin-bottom: 20px;
+    }
+
+    .hero-text {
+      color: var(--cadet);
+      font-size: var(--fs-5);
+      line-height: 1.8;
+      padding-left: 15px;
+      border-left: 1px solid;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    .carousel {
+      max-width: 100%;
+      overflow: hidden;
+      margin-top: 20px; /* Adjust spacing as needed */
+    }
+
+    .carousel img {
+      width: 100%;
+      display: none;
+    }
+
+    .carousel img.active {
+      display: block;
+    }
+
+    .carousel-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .carousel-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.5rem;
+      margin: 0 5px;
+    }
+
+    .scroll-indicator {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+
+    .scroll-btn {
+      background: rgba(255, 255, 255, 0.8);
+      border: none;
+      padding: 0.5rem;
+      cursor: pointer;
+      pointer-events: auto;
+    }
+
+    .scrollbar {
+      width: 100%;
+      overflow-x: scroll;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .scrollbar img {
+      height: 50px;
+      margin: 0 5px;
+      cursor: pointer;
+      opacity: 0.6;
+    }
+
+    .scrollbar img.active {
+      border: 2px solid #007bff;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+
+      <!-- #HERO -->
       <section class="hero" id="home">
-        <div class="container">
+        <div class="container hero-container">
 
           <div class="hero-content">
-
             <p class="hero-subtitle">
               <ion-icon name="home"></ion-icon>
-
-              <span>Real Estate Agency</span>
+              <span> Astraios Real Estate Agency</span>
             </p>
 
-            <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
+            <h2 class="h1 hero-title">Find Your Dream House With Us</h2>
 
             <p class="hero-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+              Choose Astraios for reliable expertise and a wide range of properties, backed by years of experience and personalized service. Leveraging innovative technology, Astraios provides a seamless and efficient property search experience tailored to your unique needs.
             </p>
 
             <button class="btn">Make An Enquiry</button>
-
           </div>
 
           <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" alt="Modern house model" class="w-100">
+            <img src="assets/images/hero-banner.png" alt="Modern house model">
           </figure>
 
-        </div>
-      </section>
+          <!-- Image Carousel -->
+          <div class="carousel" id="carousel">
+            <img src="assets/images/image1.png" alt="House 1" class="active">
+            <img src="assets/images/image2.png" alt="House 2">
+            <img src="assets/images/image3.png" alt="House 3">
+            <div class="carousel-buttons">
+              <button class="carousel-button" id="prev">❮</button>
+              <button class="carousel-button" id="next">❯</button>
+            </div>
+          </div>
 
+          <!-- Scrollbar -->
+          <div class="scrollbar" id="scrollbar">
+            <img src="assets/images/image1.png" alt="House 1" class="active">
+            <img src="assets/images/image2.png" alt="House 2">
+            <img src="assets/images/image3.png" alt="House 3">
+          </div>
 
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="about" id="about">
-        <div class="container">
-
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner-1.png" alt="House interior">
-
-            <img src="./assets/images/about-banner-2.jpg" alt="House interior" class="abs-img">
-          </figure>
-
-          <div class="about-content">
-
-            <p class="section-subtitle">About Us</p>
-
-            <h2 class="h2 section-title">The Leading Real Estate Rental Marketplace.</h2>
-
-            <p class="about-text">
-              Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage,
-              combined with
-              specialist services
-            </p>
-
-            <ul class="about-list">
-
-              <li class="about-item">
-                <div class="about-item-icon">
-                  <ion-icon name="home-outline"></ion-icon>
-                </div>
-
-                <p class="about-item-text">Smart Home Design</p>
-              </li>
-
-              <li class="about-item">
-                <div class="about-item-icon">
-                  <ion-icon name="leaf-outline"></ion-icon>
-                </div>
-
-                <p class="about-item-text">Beautiful Scene Around</p>
-              </li>
-
-              <li class="about-item">
-                <div class="about-item-icon">
-                  <ion-icon name="wine-outline"></ion-icon>
-                </div>
-
-                <p class="about-item-text">Exceptional Lifestyle</p>
-              </li>
-
-              <li class="about-item">
-                <div class="about-item-icon">
-                  <ion-icon name="shield-checkmark-outline"></ion-icon>
-                </div>
-
-                <p class="about-item-text">Complete 24/7 Security</p>
-              </li>
-
-            </ul>
-
-            <p class="callout">
-              "Enimad minim veniam quis nostrud exercitation
-              llamco laboris. Lorem ipsum dolor sit amet"
-            </p>
-
-            <a href="#service" class="btn">Our Services</a>
-
+          <!-- Scroll Indicator Buttons -->
+          <div class="scroll-indicator">
+            <button class="scroll-btn" id="prevScroll">❮</button>
+            <button class="scroll-btn" id="nextScroll">❯</button>
           </div>
 
         </div>
       </section>
 
+    </article>
+  </main>
 
+  <script>
+    const images = document.querySelectorAll('.carousel img');
+    const thumbnails = document.querySelectorAll('.scrollbar img');
+    let currentImageIndex = 0;
 
+    function showImage(index) {
+      images.forEach((img, i) => {
+        img.classList.toggle('active', i === index);
+        thumbnails[i].classList.toggle('active', i === index);
+      });
+    }
 
+    function nextImage() {
+      currentImageIndex = (currentImageIndex < images.length - 1) ? currentImageIndex + 1 : 0;
+      showImage(currentImageIndex);
+    }
+
+    function prevImage() {
+      currentImageIndex = (currentImageIndex > 0) ? currentImageIndex - 1 : images.length - 1;
+      showImage(currentImageIndex);
+    }
+
+    document.getElementById('prev').addEventListener('click', prevImage);
+    document.getElementById('next').addEventListener('click', nextImage);
+
+    thumbnails.forEach((thumbnail, index) => {
+      thumbnail.addEventListener('click', () => {
+        currentImageIndex = index;
+        showImage(currentImageIndex);
+      });
+    });
+
+    setInterval(nextImage, 4000); // 4 seconds timer
+
+    // Scroll Buttons Functionality
+    document.getElementById('prevScroll').addEventListener('click', () => {
+      document.querySelector('.hero-container').scrollBy({ left: -300, behavior: 'smooth' });
+    });
+
+    document.getElementById('nextScroll').addEventListener('click', () => {
+      document.querySelector('.hero-container').scrollBy({ left: 300, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
+
+      
 
       <!-- 
-        - #SERVICE
+        - #BLOG
       -->
 
-      <section class="service" id="service">
-        <div class="container">
+      <!-- 
+- #BLOG
+-->
 
-          <p class="section-subtitle">Our Services</p>
+<section class="blog" id="blog">
+  <div class="container">
 
-          <h2 class="h2 section-title">Our Main Focus</h2>
+    <p class="section-subtitle">News & Blogs</p>
 
-          <ul class="service-list">
+    <h2 class="h2 section-title">Latest News Feeds</h2>
 
-            <li>
-              <div class="service-card">
+    <div class="blog-container">
+      <button class="scroll-btn prev" onclick="scrollBlogList(-1)">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </button>
+      
+      <ul class="blog-list has-scrollbar">
+        <li>
+          <div class="blog-card">
 
-                <div class="card-icon">
-                  <img src="./assets/images/service-1.png" alt="Service icon">
-                </div>
+            <figure class="card-banner">
+              <img src="./assets/images/blog-1.png" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+            </figure>
 
-                <h3 class="h3 card-title">
-                  <a href="#">Buy a home</a>
+            <div class="blog-content">
+
+              <div class="blog-content-top">
+
+                <ul class="card-meta-list">
+
+                  <li>
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person"></ion-icon>
+                      <span>by: Admin</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="pricetags"></ion-icon>
+                      <span>Interior</span>
+                    </a>
+                  </li>
+
+                </ul>
+
+                <h3 class="h3 blog-title">
+                  <a href="#">The Most Inspiring Interior Design Of 2021</a>
                 </h3>
 
-                <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Find A Home</span>
-
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
-                </a>
-
               </div>
-            </li>
 
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/service-2.png" alt="Service icon">
+              <div class="blog-content-bottom">
+                <div class="publish-date">
+                  <ion-icon name="calendar"></ion-icon>
+                  <time datetime="2022-27-04">Apr 27, 2022</time>
                 </div>
 
-                <h3 class="h3 card-title">
-                  <a href="#">Rent a home</a>
+                <a href="#" class="read-more-btn">Read More</a>
+              </div>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="blog-card">
+
+            <figure class="card-banner">
+              <img src="./assets/images/blog-2.jpg" alt="Recent Commercial Real Estate Transactions" class="w-100">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-content-top">
+
+                <ul class="card-meta-list">
+
+                  <li>
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person"></ion-icon>
+                      <span>by: Admin</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="pricetags"></ion-icon>
+                      <span>Estate</span>
+                    </a>
+                  </li>
+
+                </ul>
+
+                <h3 class="h3 blog-title">
+                  <a href="#">Recent Commercial Real Estate Transactions</a>
                 </h3>
 
-                <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Find A Home</span>
-
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
-                </a>
-
               </div>
-            </li>
 
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/service-3.png" alt="Service icon">
+              <div class="blog-content-bottom">
+                <div class="publish-date">
+                  <ion-icon name="calendar"></ion-icon>
+                  <time datetime="2022-27-04">Apr 27, 2022</time>
                 </div>
 
-                <h3 class="h3 card-title">
-                  <a href="#">Sell a home</a>
+                <a href="#" class="read-more-btn">Read More</a>
+              </div>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="blog-card">
+
+            <figure class="card-banner">
+              <img src="./assets/images/blog-3.jpg" alt="Renovating a Living Room? Experts Share Their Secrets"
+                class="w-100">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-content-top">
+
+                <ul class="card-meta-list">
+
+                  <li>
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person"></ion-icon>
+                      <span>by: Admin</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="pricetags"></ion-icon>
+                      <span>Room</span>
+                    </a>
+                  </li>
+
+                </ul>
+
+                <h3 class="h3 blog-title">
+                  <a href="#">Renovating a Living Room? Experts Share Their Secrets</a>
                 </h3>
 
-                <p class="card-text">
-                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
-                  to call home.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Find A Home</span>
-
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
-                </a>
-
               </div>
-            </li>
 
-          </ul>
+              <div class="blog-content-bottom">
+                <div class="publish-date">
+                  <ion-icon name="calendar"></ion-icon>
+                  <time datetime="2022-27-04">Apr 27, 2022</time>
+                </div>
 
-        </div>
-      </section>
+                <a href="#" class="read-more-btn">Read More</a>
+              </div>
+
+            </div>
+
+          </div>
+        </li>
+      </ul>
+
+      <button class="scroll-btn next" onclick="scrollBlogList(1)">
+        <ion-icon name="arrow-forward-outline"></ion-icon>
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+    
 
 
 
 
+
+
+     
+
+
+
+
+
+     
 
       <!-- 
         - #PROPERTY
@@ -410,6 +692,7 @@
           <h2 class="h2 section-title">Featured Listings</h2>
 
           <ul class="property-list has-scrollbar">
+            
 
             <li>
               <div class="property-card">
@@ -420,16 +703,15 @@
                     <img src="./assets/images/property-1.jpg" alt="New Apartment Nice View" class="w-100">
                   </a>
 
-                  <div class="card-badge green">For Rent</div>
+                  <div class="card-badge green">For Sale</div>
 
                   <div class="banner-actions">
 
-                    <button class="banner-actions-btn">
+                    <button class="banner-actions-btn" onclick="openGoogleMaps()">
                       <ion-icon name="location"></ion-icon>
-
-                      <address>Belmont Gardens, Chicago</address>
-                    </button>
-
+                      <address>Near Sealdah Metro Station, Kolkata</address>
+                  </button>
+                  
                     <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
 
@@ -542,12 +824,11 @@
 
                   <div class="banner-actions">
 
-                    <button class="banner-actions-btn">
+                    <button class="banner-actions-btn" onclick="openGoogleMaps()">
                       <ion-icon name="location"></ion-icon>
-
-                      <address>Belmont Gardens, Chicago</address>
-                    </button>
-
+                      <address>Near Tollygunge Bangur Hospital, Kolkata</address>
+                  </button>
+                  
                     <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
 
@@ -656,15 +937,14 @@
                     <img src="./assets/images/property-3.jpg" alt="Comfortable Apartment" class="w-100">
                   </a>
 
-                  <div class="card-badge green">For Rent</div>
+                  <div class="card-badge green">For Sale</div>
 
                   <div class="banner-actions">
-
-                    <button class="banner-actions-btn">
+                    <button class="banner-actions-btn" onclick="openGoogleMaps()">
                       <ion-icon name="location"></ion-icon>
-
-                      <address>Belmont Gardens, Chicago</address>
-                    </button>
+                      <address>Near Behala Tram Depot, Near Panna Sweets, Kolkata</address>
+                  </button>
+                  
 
                     <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
@@ -774,15 +1054,15 @@
                     <img src="./assets/images/property-4.png" alt="Luxury villa in Rego Park" class="w-100">
                   </a>
 
-                  <div class="card-badge green">For Rent</div>
+                  <div class="card-badge green">For Sale</div>
 
                   <div class="banner-actions">
 
-                    <button class="banner-actions-btn">
+                    <button class="banner-actions-btn" onclick="openGoogleMaps()">
                       <ion-icon name="location"></ion-icon>
-
-                      <address>Belmont Gardens, Chicago</address>
-                    </button>
+                      <address>Newton, Near Gitanjali Park</address>
+                  </button>
+                  
 
                     <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
@@ -884,9 +1164,16 @@
             </li>
 
           </ul>
+          <div class="scroll-indicator">
+            <button class="scroll-btn next" onclick="scrollPropertyList(1)">
+              <ion-icon name="chevron-forward"></ion-icon>
+            </button>
+            <button class="scroll-btn prev" onclick="scrollPropertyList(-1)">
+              <ion-icon name="chevron-back"></ion-icon>
+            </button>
+          </div>
 
-        </div>
-      </section>
+      
 
 
 
@@ -1039,175 +1326,90 @@
       </section>
 
 
-
-
-
-      <!-- 
-        - #BLOG
+       <!-- 
+        - #SERVICE
       -->
 
-      <section class="blog" id="blog">
+      <section class="service" id="service">
         <div class="container">
 
-          <p class="section-subtitle">News & Blogs</p>
+          <p class="section-subtitle">Our Services</p>
 
-          <h2 class="h2 section-title">Leatest News Feeds</h2>
+          <h2 class="h2 section-title">Our Main Focus</h2>
 
-          <ul class="blog-list has-scrollbar">
+          <ul class="service-list">
 
             <li>
-              <div class="blog-card">
+              <div class="service-card">
 
-                <figure class="card-banner">
-                  <img src="./assets/images/blog-1.png" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-content-top">
-
-                    <ul class="card-meta-list">
-
-                      <li>
-                        <a href="#" class="card-meta-link">
-                          <ion-icon name="person"></ion-icon>
-
-                          <span>by: Admin</span>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a href="#" class="card-meta-link">
-                          <ion-icon name="pricetags"></ion-icon>
-
-                          <span>Interior</span>
-                        </a>
-                      </li>
-
-                    </ul>
-
-                    <h3 class="h3 blog-title">
-                      <a href="#">The Most Inspiring Interior Design Of 2021</a>
-                    </h3>
-
-                  </div>
-
-                  <div class="blog-content-bottom">
-                    <div class="publish-date">
-                      <ion-icon name="calendar"></ion-icon>
-
-                      <time datetime="2022-27-04">Apr 27, 2022</time>
-                    </div>
-
-                    <a href="#" class="read-more-btn">Read More</a>
-                  </div>
-
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" alt="Service icon">
                 </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Buy a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
 
               </div>
             </li>
 
             <li>
-              <div class="blog-card">
+              <div class="service-card">
 
-                <figure class="card-banner">
-                  <img src="./assets/images/blog-2.jpg" alt="Recent Commercial Real Estate Transactions" class="w-100">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-content-top">
-
-                    <ul class="card-meta-list">
-
-                      <li>
-                        <a href="#" class="card-meta-link">
-                          <ion-icon name="person"></ion-icon>
-
-                          <span>by: Admin</span>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a href="#" class="card-meta-link">
-                          <ion-icon name="pricetags"></ion-icon>
-
-                          <span>Estate</span>
-                        </a>
-                      </li>
-
-                    </ul>
-
-                    <h3 class="h3 blog-title">
-                      <a href="#">Recent Commercial Real Estate Transactions</a>
-                    </h3>
-
-                  </div>
-
-                  <div class="blog-content-bottom">
-                    <div class="publish-date">
-                      <ion-icon name="calendar"></ion-icon>
-
-                      <time datetime="2022-27-04">Apr 27, 2022</time>
-                    </div>
-
-                    <a href="#" class="read-more-btn">Read More</a>
-                  </div>
-
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" alt="Service icon">
                 </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Rent a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
 
               </div>
             </li>
 
             <li>
-              <div class="blog-card">
+              <div class="service-card">
 
-                <figure class="card-banner">
-                  <img src="./assets/images/blog-3.jpg" alt="Renovating a Living Room? Experts Share Their Secrets"
-                    class="w-100">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-content-top">
-
-                    <ul class="card-meta-list">
-
-                      <li>
-                        <a href="#" class="card-meta-link">
-                          <ion-icon name="person"></ion-icon>
-
-                          <span>by: Admin</span>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a href="#" class="card-meta-link">
-                          <ion-icon name="pricetags"></ion-icon>
-
-                          <span>Room</span>
-                        </a>
-                      </li>
-
-                    </ul>
-
-                    <h3 class="h3 blog-title">
-                      <a href="#">Renovating a Living Room? Experts Share Their Secrets</a>
-                    </h3>
-
-                  </div>
-
-                  <div class="blog-content-bottom">
-                    <div class="publish-date">
-                      <ion-icon name="calendar"></ion-icon>
-
-                      <time datetime="2022-27-04">Apr 27, 2022</time>
-                    </div>
-
-                    <a href="#" class="read-more-btn">Read More</a>
-                  </div>
-
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" alt="Service icon">
                 </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Sell a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
 
               </div>
             </li>
@@ -1217,6 +1419,85 @@
         </div>
       </section>
 
+
+
+
+
+
+
+
+       <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner-1.png" alt="House interior">
+
+            <img src="./assets/images/about-banner-2.jpg" alt="House interior" class="abs-img">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">The Leading Real Estate Rental Marketplace.</h2>
+
+            <p class="about-text">
+              Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage,
+              combined with
+              specialist services
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Smart Home Design</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Beautiful Scene Around</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="wine-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Exceptional Lifestyle</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Complete 24/7 Security</p>
+              </li>
+
+            </ul>
+
+            <p class="callout">
+              "Enimad minim veniam quis nostrud exercitation
+              llamco laboris. Lorem ipsum dolor sit amet"
+            </p>
+
+            <a href="#service" class="btn">Our Services</a>
+
+          </div>
+
+        </div>
+      </section>
 
 
 
@@ -1264,40 +1545,35 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo-light.png" alt="MYHOUSE logo">
+            <img src="./assets/images/logo-light.png" alt="ASTRAIO logo">
           </a>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
-          </p>
+            
 
           <ul class="contact-list">
-
-            <li>
-              <a href="#" class="contact-link">
-                <ion-icon name="location-outline"></ion-icon>
-
-                <address>232/20 Joka, Kolkata-700104</address>
-              </a>
+            <li id="location">
+                <a href="https://www.google.com/maps/search/?api=1&query=232/20+Joka,+Kolkata-700104" class="contact-link" target="_blank">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <address>232/20 Joka, Kolkata-700104</address>
+                </a>
             </li>
-
             <li>
-              <a href="tel:+0123456789" class="contact-link">
-                <ion-icon name="call-outline"></ion-icon>
-
-                <span>+0123-456789</span>
-              </a>
+                <a href="tel:+91 97420 27717" class="contact-link">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+91 97420 27717</span>
+                </a>
             </li>
-
             <li>
-              <a href="mailto:contact@MYHOUSE.com" class="contact-link">
+              <a href="mailto:sales@astraios.tech" class="contact-link">
                 <ion-icon name="mail-outline"></ion-icon>
-
-                <span>contact@MYHOUSE.com</span>
+                <span>sales@astraios.tech</span>
               </a>
             </li>
-
-          </ul>
+            
+            
+        </ul>
+        
 
           <ul class="social-list">
 
@@ -1334,7 +1610,8 @@
           <ul class="footer-list">
 
             <li>
-              <p class="footer-list-title">Company</p>
+              <p class="footer-list-title">
+             
             </li>
 
             <li>
@@ -1345,49 +1622,28 @@
               <a href="#" class="footer-link">Blog</a>
             </li>
 
-            <li>
-              <a href="#" class="footer-link">All Products</a>
-            </li>
 
-            <li>
-              <a href="#" class="footer-link">Locations Map</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">FAQ</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Contact us</a>
-            </li>
+           
+           
 
           </ul>
 
           <ul class="footer-list">
 
             <li>
-              <p class="footer-list-title">Services</p>
+              <p class="footer-list-title"></p>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Order tracking</a>
+              <a href="#" class="footer-link" onclick="openGoogleMaps()">Locations Map</a>
+
             </li>
 
-            <li>
-              <a href="#" class="footer-link">Wish List</a>
-            </li>
 
-            <li>
-              <a href="#" class="footer-link">Login</a>
-            </li>
+           
 
-            <li>
-              <a href="#" class="footer-link">My account</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Terms & Conditions</a>
-            </li>
+        
+           
 
             <li>
               <a href="#" class="footer-link">Promotional Offers</a>
@@ -1398,33 +1654,18 @@
           <ul class="footer-list">
 
             <li>
-              <p class="footer-list-title">Customer Care</p>
+              <p class="footer-list-title"></p>
             </li>
 
-            <li>
-              <a href="#" class="footer-link">Login</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">My account</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Wish List</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Order tracking</a>
-            </li>
+           
 
             <li>
               <a href="#" class="footer-link">FAQ</a>
             </li>
 
             <li>
-              <a href="#" class="footer-link">Contact us</a>
+              <a href="#" class="footer-link">Terms & Conditions</a>
             </li>
-
           </ul>
 
         </div>
@@ -1436,7 +1677,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2022 <a href="#">codewithRajiv</a>. All Rights Reserved
+          &copy; 2024 <a href="#">Astraios Real Estate</a>. All Rights Reserved
         </p>
 
       </div>
